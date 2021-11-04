@@ -50,7 +50,7 @@ public class StockHolding {
             System.out.println("You sold " + numShares + " shares for $" + numShares * getPrice());
             return numShares * this.price;
         } else if (numShares <= 0) {
-            System.out.println("Please enter a valid number");
+            System.out.println("Invalid number");
             return 0;
         } else {
             System.out.println("You do not have enough shares!");
